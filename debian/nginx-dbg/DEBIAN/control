@@ -1,0 +1,13 @@
+Package: nginx-dbg
+Source: nginx
+Version: 1.19.6-1~bionic+pagespeed+brotli+http3+quic+ModSecurity
+Architecture: amd64
+Maintainer: Sergey Budnevitch <sb@nginx.com>
+Installed-Size: 26523
+Depends: nginx (= 1.19.6-1~bionic+pagespeed+brotli+http3+quic+ModSecurity)
+Section: debug
+Priority: extra
+Homepage: http://nginx.org
+Description: nginx debug symbols
+ This package contains the debugging symbols for nginx.
+Build-Ids: 6d444e52bd439aa76ad9bfbe9c0d71f180b762e9 db1edced47e443ffc26960043cab556a4a260646
